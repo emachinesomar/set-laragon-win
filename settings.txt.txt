@@ -1,0 +1,111 @@
+{
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDelete": false,
+    "html-css-class-completion.enableEmmetSupport": true,
+    // "php.validate.executablePath": "   C:/laragon/bin/php/php-8.1.10-Win32-vs16-x64/php.exe" 
+    //                                    C:/laragon/bin/php/php-8.0.30-Win32-vs16-x64/php.exe",
+
+    "editor.formatOnSave": false,
+    "[php]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    },
+    "phpfmt.php_bin": "C:/laragon/bin/php/php-8.1.10-Win32-vs16-x64/php.exe",
+    "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\cmd.exe ",
+    "terminal.integrated.env.windows": {
+        "PATH": "C:\\Users\\omarm\\AppData\\Local\\Yarn\\config\\global\\node_modules\\.bin;C:\\Users\\omarm\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\omarm\\AppData\\Roaming\\npm;C:\\Laragon\\bin;C:\\Laragon\\bin\\apache\\httpd-2.4.35-win64-VC15\\bin;C:\\Laragon\\bin\\composer;C:\\Laragon\\bin\\git\\bin;C:\\Laragon\\bin\\git\\cmd;C:\\Laragon\\bin\\git\\mingw64\\bin;C:\\Laragon\\bin\\git\\usr\\bin;C:\\Laragon\\bin\\laragon\\utils;C:\\Laragon\\bin\\mysql\\mysql-5.7.24-winx64\\bin;C:\\Laragon\\bin\\nginx\\nginx-1.16.0;C:\\Laragon\\bin\\ngrok;C:\\Laragon\\bin\\nodejs\\node-v12;C:\\Laragon\\bin\\notepad++;C:\\Laragon\\bin\\php\\php-8.0.3-Win32-vs16-x64;C:\\Laragon\\bin\\putty;C:\\Laragon\\bin\\redis\\redis-x64-3.2.100;C:\\Laragon\\bin\\telnet;C:\\Laragon\\usr\\bin;${env:PATH}"
+    },
+    "git.ignoreMissingGitWarning": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.ignoreProcessNames": [
+        "starship",
+        "oh-my-posh",
+        "zsh"
+    ],
+    "terminal.integrated.profiles.windows": {
+        "Cmder": {
+          "path": "${env:windir}\\System32\\cmd.exe",
+          "args": ["/k", "C:\\laragon\\bin\\cmder\\vendor\\init.bat"]
+        }
+      },
+
+    "terminal.integrated.defaultProfile.windows": "Cmder",
+    
+
+
+    "phpfmt.enable_auto_align": true,
+    "editor.stickyScroll.enabled": false,
+    "prettier.bracketSameLine": true,
+    "prettier.enableDebugLogs": true,
+    "prettier.insertPragma": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.resolveGlobalModules": true,
+    "prettier.requireConfig": true,
+    "prettier.requirePragma": true,
+    "prettier.singleQuote": true,
+    "prettier.useTabs": true,
+    "prettier.vueIndentScriptAndStyle": true,
+    "prettier.withNodeModules": true,
+    "debug.showBreakpointsInOverviewRuler": true,
+    "markdown.preview.breaks": true,
+    "window.zoomLevel": -1,
+    "html.format.templating": true,
+    "phpfmt.detect_indent": true,
+    "editor.suggestOnTriggerCharacters": false,
+    "php-docblocker.alignParams": true,
+    "php-docblocker.alignReturn": true,
+    "workbench.colorTheme": "Sublime Monokai",
+    "LaravelExtraIntellisense.customValidationRules": {
+
+        "mobile": "mobile",
+        "distance_gt": "distance_gt:${0:1km}"
+    },
+    "update.enableWindowsBackgroundUpdates": false,
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.copyOnSelection": true,
+    "editor.stickyTabStops": true,
+    "php-cs-fixer.executablePathWindows": "C:/laragon/bin/php/php-8.1.10-Win32-vs16-x64/php.exe",
+    "php-cs-fixer.executablePath": "php-cs-fixer",
+    "prettier.tabWidth": 4,
+    "php-cs-fixer.ignorePHPVersion": true,
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.autoFixByBracket": true,
+
+    "php-cs-fixer.rules": "@PSR12",
+    "php-cs-fixer.config": ".php-cs-fixer.php;.php-cs-fixer.dist.php;.php_cs;.php_cs.dist",
+    "php-cs-fixer.allowRisky": false,
+    "php-cs-fixer.pathMode": "override",
+    "php-cs-fixer.exclude": [],
+    "php-cs-fixer.autoFixBySemicolon": false,
+    "php-cs-fixer.formatHtml": false,
+    "php-cs-fixer.documentFormattingProvider": true,
+    "LaravelExtraIntellisense.basePath": ".",
+    "LaravelExtraIntellisense.basePathForCode": ".",
+    "LaravelExtraIntellisense.disableBlade": true,
+    "LaravelExtraIntellisense.disableAuth": true,
+    "LaravelExtraIntellisense.modelsPaths": [
+
+        "app",
+        "app/Models"
+    ],
+    "LaravelExtraIntellisense.modelVariables": {
+
+        "user": "App\\Models\\User"
+    },
+    "namespaceResolver.showMessageOnStatusBar": true,
+    "namespaceResolver.sortAlphabetically": true,
+    "namespaceResolver.sortOnSave": true,
+    "php-docblocker.gap": false,
+    "php-docblocker.useShortNames": true,
+    "workbench.localHistory.mergeWindow": 600,
+    "breadcrumbs.enabled": false
+    
+
+
+}
